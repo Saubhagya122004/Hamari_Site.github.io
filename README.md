@@ -8,8 +8,8 @@ This repository contains the code for a simple e-commerce product page. The site
 Features
 
     The site features a product grid with product images, descriptions, and prices.
-    Users can add products to their cart and checkout.
-    The site is responsive and mobile-friendly.
+    Users can review all the products and have a look to their favourite product and see consumer reviews.
+    The site is responsive and mobile-friendly. [under-progress]
 
 Technologies Used
 
@@ -28,7 +28,7 @@ Contributions are welcome! If you find any bugs or have any suggestions, please 
 
 License
 
-The project is under licenscing process.
+The project is under licensing process.
 
 This README file is written in a language that is understandable by software engineers. It includes a brief overview of the project, the features that are implemented, the technologies that are used, and how to get started with the project. It also includes information about how to contribute to the project and the project's license.
 
