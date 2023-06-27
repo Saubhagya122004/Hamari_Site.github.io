@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="text-gray-50 body-font bg-gray-800 sticky top-0 z-20">
+        <div class="container mx-auto flex flex-wrap px-9 py-3 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-50 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-emerald-500 w-10 h-10" viewBox="0 0 24 24" id="okta">  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm5 10c0 2.8-2.2 5-5 5s-5-2.2-5-5 2.2-5 5-5 5 2.2 5 5z"></path></svg>
+                <span class="ml-3 text-xl font-bold">Hamrara.Site</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center ">
+                <a href="index.html" class="mr-5 hover:text-green-400 font-bold">Home</a>
+                <a href="Product.html" class="mr-5 hover:text-green-400 font-bold">Product List</a>
+                <a class="mr-5 hover:text-green-400 font-bold">About Us</a>
+                <a class="mr-5 hover:text-green-400 font-bold">Contact Us</a>
+                <div>
+                    <div class="relative flex w-full flex-nowrap items-stretch">
+                        <input type="search"
+                            class="relative m-0 block w-full flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none "
+                            placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
+
+                        <!--Search icon-->
+                        <span
+                            class="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-50"
+                            id="basic-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="h-5 w-5">
+                                <path fill-rule="evenodd"
+                                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+    <div class="mx-auto container px-4 md:px-12 py-12 bg-gray-900">
+        <div class="flex flex-col">
+
+            <!--! The banner image -->
+
+            <div class="flex flex-col justify-center">
+                <div class="relative">
+                    <img class="hidden sm:block w-full h-[350px] object-cover object-center"
+                        src="https://cdn.shopify.com/s/files/1/0567/9503/7849/files/website-banner-desktop-landscape.jpg?v=1635135138"
+                        alt="shoes" />
+                    <img class="sm:hidden w-full"
+                        src="https://i.pinimg.com/564x/31/88/bd/3188bd6b687639950256270d19c2e0c1.jpg" alt="shoes" />
+                </div>
+            </div>
+
+            <!--! The banner image ends here -->
+
+            <div class="flex flex-col gap-3 mt-7 rounded-lg px-24 py-5">
+                <div class="flex w-full justify-center">
+                    <h1 class="text-2xl text-white font-bold mb-2">Shop By Catergories</h1>
+                </div>
+                <div class="grid grid-cols-3 gap-4">
+
+                    <div class="bg-slate-700">
+                        <img class="rounded-md" src="https://img.fruugo.com/product/3/30/187785303_max.jpg" alt="">
+                    </div>
+    
+                    
+                    <div class="bg-slate-700">
+                        <img class="rounded-md" src="https://img.fruugo.com/product/3/30/187785303_max.jpg" alt="">
+                    </div>
+    
+                    
+                    <div class="bg-slate-700">
+                        <img class="rounded-md" src="https://img.fruugo.com/product/3/30/187785303_max.jpg" alt="">
+                    </div>
+    
+                </div>
+            </div>
+
+             <!--! The shoes grid  -->
+
+            <div class="mt-10 grid lg:grid-cols-4 gap-x-8 gap-y-8 items-center">
+
+                <!--! The first shoe -->
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png" alt="sofa-2" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Sectional Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $78900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The second shoe -->
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The third shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/DgFfGcm/paul-weaver-n-Wid-MEQsn-AQ-unsplash-removebg-preview-1.png"
+                        alt="sofa-4" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Sectional Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $78900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg"
+                                alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg"
+                                alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The fourth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/K6PL38P/pexels-pixabay-276566-removebg-preview-1.png" alt="sofa-5" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Sectional Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $78900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                    <div class="absolute top-4 right-6">
+                        <p class="text-base leading-4 pb-0.5 text-gray-600 dark:text-white border-b-2 border-gray-600">
+                            New</p>
+                    </div>
+                </div>
+
+                <!--! The fifth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/zP9sWqP/phillip-goldsberry-f-Zule-Efe-A1-Q-unsplash-1-removebg-preview-1.png"
+                        alt="sofa-6" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Sectional Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $78900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The sixth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/SPyYgjw/pexels-martin-p-chy-1866149-removebg-preview-1.png"
+                        alt="sofa-7" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Sectional Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $78900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The seventh shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The eighth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The ninth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The tenth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The eleventh shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+
+                <!--! The twelveth shoe -->
+
+                <div
+                    class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
+                    <img class="group-hover:opacity-60 transition duration-500"
+                        src="https://i.ibb.co/3BbZvtQ/pexels-andrea-piacquadio-3757055-removebg-preview-1.png"
+                        alt="sofa-3" />
+                    <div
+                        class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
+                                Two Seater Sofa</p>
+                        </div>
+                        <div>
+                            <p
+                                class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">
+                                $2900</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group-hover:opacity-60 transition duration-500 absolute bottom-8 right-8 flex justify-start items-start flex-row space-x-2">
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                        <button class="bg-white border rounded-full focus:bg-gray-800 border-gray-600 p-1.5"></button>
+                    </div>
+                    <div
+                        class="flex flex-col bottom-8 left-8 space-y-4 absolute opacity-0 group-hover:opacity-100 transition duration-500">
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1.svg" alt="add">
+                            <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg1dark.svg" alt="add">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2.svg" alt="view">
+                            <img class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg2dark.svg"
+                                alt="view">
+                        </button>
+                        <button>
+                            <img class="dark:hidden"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3.svg" alt="like">
+                            <img class="hidden dark:block" src="
+                        https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg3dark.svg" alt="like" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--! The image grid ends here -->
+
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-black shadow-white ">
+        <div class="w-full max-w-screen-2xl p-4 md:py-4">
+            <div class="sm:flex sm:items-center sm:justify-between ">
+                <a href="<<!--LINK HERE-->>" class="flex items-center mb-4 sm:mb-0">
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_Yz2AzPLPXW.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px;"   loop autoplay></lottie-player>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Hamari.Site</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-4 border-gray-200 sm:mx-auto lg:my-4" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://www.investopedia.com/terms/c/copyright.asp" class="hover:underline">Hertz™</a>. All Rights Reserved.</span>
+        </div>
+      </footer>
+</body>
+
+</html>
